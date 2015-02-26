@@ -1,0 +1,26 @@
+{
+  "name": "stylus-media-queries",
+  "version": "1.0.0",
+  "description": "Stylus mixins to quickly write media queries for adaptative and responsive design",
+  "main": "index.styl",
+  "files": [
+    "index.styl"
+  ],
+  "keywords": [
+    "stylus",
+    "media",
+    "queries",
+    "media-queries",
+    "reponsive",
+    "adaptive"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/superguigui/stylus-media-queries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superguigui/stylus-media-queries"
+  },
+  "bugs": {
+    "url": "https://github.com/superguigui/stylus-media-queries/issues"
+  }
+}
