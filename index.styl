@@ -1,32 +1,32 @@
 /*======================================================================
     SCREEN SIZE
 ======================================================================*/
-screen(resMin, resMax)
-    @media screen and (min-width: resMin) and (max-width: resMax)
+screen(minWidth, maxWidth)
+    @media screen and (min-width: minWidth) and (max-width: maxWidth)
         {block}
 
-max-screen(res)
-    @media screen and (max-width: res)
+max-screen(maxWidth)
+    @media screen and (max-width: maxWidth)
         {block}
 
-min-screen(res)
-    @media screen and (min-width: res)
+min-screen(minWidth)
+    @media screen and (min-width: minWidth)
         {block}
 
-screen-height(resMin, resMax)
-    @media screen and (min-height: resMin) and (max-height: resMax)
+screen-height(minHeight, maxHeight)
+    @media screen and (min-height: minHeight) and (max-height: maxHeight)
         {block}
 
-max-screen-height(res)
-    @media screen and (max-height: res)
+max-screen-height(maxHeight)
+    @media screen and (max-height: maxHeight)
         {block}
 
-min-screen-height(res)
-    @media screen and (min-height: res)
+min-screen-height(minHeight)
+    @media screen and (min-height: minHeight)
         {block}
 
 /*======================================================================
-    SCREEN DENSITY
+    PIXEL DENSITY
 ======================================================================*/
 hdpi(density = 1.3)
     media = " all"

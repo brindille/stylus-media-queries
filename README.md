@@ -20,6 +20,22 @@ $ npm install stylus-media-queries --save
 
 ```
 
+## Mixins
+
+Currently available mixins :
+```css
+/* Screen sizes */
+screen(minWidth, maxWidth)
+max-screen(maxWidth)
+min-screen(minWidth)
+screen-height(minHeight, maxHeight)
+max-screen-height(maxHeight)
+min-screen-height(minHeight)
+
+/* Pixel density */
+hdpi(density)
+```
+
 ## License
 
 MIT
