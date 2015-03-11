@@ -14,6 +14,17 @@
     "reponsive",
     "adaptive"
   ],
+  "author": {
+    "name": "Guillaume Gouessan",
+    "email": "guillaume.gouessan@gmail.com",
+    "url": "https://github.com/superguigui"
+  },
+  "contributors": [
+    {
+      "name": "Valentin Daguenet",
+      "email": "valentin.daguenet@gmail.com"
+    }
+  ],
   "license": "MIT",
   "homepage": "https://github.com/superguigui/stylus-media-queries",
   "repository": {
